@@ -1,0 +1,72 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+}
+
+void dialog002()
+{
+}
+
+void dialog003()
+{
+}
+
+void dialog004()
+{
+}
+
+void dialog005()
+{
+}
+
+void dialog006()
+{
+}
+
+void dialog007()
+{
+}
+
+void dialog008()
+{
+}
+
+void dialog009()
+{
+}
+
+void dialog010()
+{
+}
+
+void dialog011()
+{
+//　そんな日々に終止符を打ってくれたのは、......どこの誰とも知らない、覚醒剤常習癖のおかしなヤツだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そんな日々に終止符を打ってくれたのは、……どこの誰とも知らない、覚醒剤常習癖のおかしなヤツだ。",
+		   NULL, "The one who brought an end to those terrible days... was some crazy drug addict nobody knew.", Line_Normal);
+	ClearMessage();
+}
+
+void dialog012()
+{
+}
+
+void dialog013()
+{
+}
+
+void dialog014()
+{
+}
+
+void dialog015()
+{
+}
