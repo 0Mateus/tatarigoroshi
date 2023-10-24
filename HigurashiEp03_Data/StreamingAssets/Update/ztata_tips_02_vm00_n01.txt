@@ -11,7 +11,7 @@ void dialog001()
 	OutputLine(NULL, "「……北条〜！！",
 		   NULL, "\"...Houjou~!!", Line_WaitForInput);
 	OutputLine(NULL, "　あんな罠を仕掛けるのは北条しかいないー！！！」",
-		   NULL, " You're the only one who could have set up a trick like that!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você é a única que poderia ter armado um truque como aquele!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
@@ -21,7 +21,7 @@ void dialog001()
 void dialog002()
 {
 	OutputLine(NULL, "「「天誅〜〜！！！」」",
-		   NULL, "\"\"Payback~~!!!\"\"", Line_ContinueAfterTyping);
+		   NULL, "\"\"Hora de pagar~~!!!\"\"", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_003", 56, 64 );
 
