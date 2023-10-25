@@ -25,7 +25,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100119", 256, TRUE);
 	OutputLine(NULL, "「…………どうやら、だれが罠をしかけたのかは問答無用、ってところだな」",
-		   NULL, "\"...Não me parece difícil imaginar quem poderia ter armado aquele truque.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Aparentemente, conversar com quem armou aqueles truques não é uma opção.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 	ModDrawCharacter(2, 4, "sprite/sa1a_odoroki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -35,9 +35,9 @@ void dialog002()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし、そんな強がりも二人がかり、しかも真っ白けの姿で無言のまま、……",
-		   NULL, "Com isso dito, os dois que estavam fingindo serem durões, agora estavam parados em completo silêncio... ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Após isso ser dito, os dois que estavam fingindo serem durões, ficaram parados em completo silêncio... ", GetGlobalFlag(GLinemodeSp));
 	OutputLine(NULL, "というより、喋りたくても口の中にまで石灰が詰まって、モゴモゴと喋れない様子で迫りくるさまは、……確かにホラ、沙都子ながらに怖いかも。",
-		   NULL, "Mas, de qualquer forma, ignorando o que recém aconteceu, ter alguém perseguindo você com a boca tão cheia de cal que não poderia até mesmo falar... Sim, isso seria assustador até mesmo para Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De qualquer forma, ignorando o que recém aconteceu, ter alguém perseguindo você com a boca tão cheia de cal que não poderia até mesmo falar... Sim, isso seria assustador até mesmo para Satoko.", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
