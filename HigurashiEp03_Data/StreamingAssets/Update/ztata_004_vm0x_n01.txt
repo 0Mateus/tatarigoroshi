@@ -6,7 +6,7 @@ void dialog000()
 {
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei30360", 256, TRUE);
 	OutputLine(NULL, "きっと成長途上な魅音を飛び越して、ナイスバデーになって、グラビアを独り占めだ！！」",
-		   NULL, " I'm sure you'll surpass that underdeveloped Mion, get yourself a nice sexy body, and be all over the dirty magazines!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tenho certeza que você vai superar a subdesenvolvida Mion, alcançando um corpo bonito e sexy, sendo estampada em todas as revistas sujas!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -15,7 +15,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600353", 256, TRUE);
 	OutputLine(NULL, "「まずですね、私のことをご主人様と呼ばせて、優しく可憐なメイドにします。」",
-		   NULL, "\"Well, first, I would get her to call me Master, and make her into a lovely kind-hearted maid.\"", Line_Continue);
+		   NULL, "\"Bem, primeiro, eu faria ela me chamar de Mestre, e a transformaria numa adorável e gentil criada.\"", Line_Continue);
 }
 
 void dialog002()
@@ -23,10 +23,10 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600354", 256, TRUE);
 	OutputLine(NULL, "「そうそう。",
-		   NULL, "\"Oh, that's right.", Line_WaitForInput);
+		   NULL, "\"Oh, certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600355", 256, TRUE);
 	OutputLine(NULL, "沙都子を自分専属の「ぷりちー」なメイドにするってはっきり言いました。」",
-		   NULL, " I clearly said I would make Satoko into my own personal pretty maid.\"", Line_Normal);
+		   NULL, " Eu disse claramente que transfomaria Satoko em minha criada pessoal.\"", Line_Normal);
 	ClearMessage();
 //＜詩音
 	DisableWindow();
@@ -37,10 +37,10 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000117", 256, TRUE);
 	OutputLine(NULL, "「あ〜〜、それはいいですねぇ…。",
-		   NULL, "\"Ahhh, that sounds nice...", Line_WaitForInput);
+		   NULL, "\"Ahhh, isso soa tão legal...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000118", 256, TRUE);
 	OutputLine(NULL, "沙都子ちゃんを…「ぷりちー」…♪」",
-		   NULL, " Satoko-chan... all pretty...♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Satoko-chan... tão PRETTY...♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -50,19 +50,19 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600356", 256, TRUE);
 	OutputLine(NULL, "「あ、「プリティ」と「ぷりちー」は似てるようで微妙に違いますからね。",
-		   NULL, "\"Oh, 'pretty' and 'purity' are really hard to differentiate, right?", Line_WaitForInput);
+		   NULL, "\"Ah, 'PRETTY' e 'PURITY' são palavras realmente dificeis de diferenciar, não é mesmo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600357", 256, TRUE);
 	OutputLine(NULL, "日本のわび寂をミックスした和洋折衷の言葉なので、注意してください。」",
-		   NULL, " Be careful with mixing refined Japanese words and English together.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tenha cuidado ao misturar palavras japonêsas refinadas com o inglês.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei30960", 256, TRUE);
 	OutputLine(NULL, "「なるほどな。",
-		   NULL, "\"I get it.", Line_WaitForInput);
+		   NULL, "\"Entendi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei30970", 256, TRUE);
 	OutputLine(NULL, "いや〜、日本語はほんと奥が深いよなぁ〜。」",
-		   NULL, " Honestly, the intricacies of the language know no bounds.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sinceramente, as complexidades linguísticas não tem limites.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -73,7 +73,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>", NULL, "<color=#a17d6b>Tomita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 24, "ps3/s19/24/502400052", 256, TRUE);
 	OutputLine(NULL, "「だから北条を信じちゃいけないって警告したんですよー。」",
-		   NULL, "\"I warned you about trusting Houjou!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eu te avisei sobre confiar em Satoko!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -82,21 +82,22 @@ void dialog004()
 //自分が調教されているメイドであると想像するんです＠/
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000132", 256, TRUE);
 	OutputLine(NULL, "厳しい「指導」を受けているメイドであると想像するんです。",
-		   NULL, " just imagine that you're a maid on the receiving end of some strict \"disciplining.\"", Line_WaitForInput);
+		   NULL, " apenas imagine-se como uma empregada recebendo uma severa \"disciplina.\" ", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 10, "sprite/iri1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000133", 256, TRUE);
 	OutputLine(NULL, "……ほら、絶望的なシチュエーションが、何だか楽しそうになってきませんか…☆",
-		   NULL, " ...See? Doesn't the hopeless situation seem kind of fun now...?☆", Line_WaitForInput);
+		   NULL, "...Vê? A situação desesperadora não parece meio divertida agora...?☆", Line_WaitForInput);
 }
 
 void dialog005()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺推理では多分、「指導」と打つと変換されると見た…。",
-		   NULL, "The first thing that comes into mind when I think of \"disciplining\" certainly isn't \"maids\"...", Line_Normal);
+		   NULL, "O que vem à minha mente quando eu ouço a palavra \"disciplina\" certamente não é \"criada\"...", Line_Normal);
 	ClearMessage();
 }
