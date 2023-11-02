@@ -15,20 +15,20 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石さんへ。",
-		   NULL, "To Ooishi-san.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para Ooishi-san.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　捜査四課の重春課長からお電話がありました＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　捜査四課の重春課長からお電話がありました。",
-		   NULL, "There was a call for you from Section 4's Chief Shigeharu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tivemos um chamado para você, do Chefe Shigeharu, da Seção 4.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　例の王子川の惨殺死体の件は、やはりＳ号絡みだったらしいです￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例の王子川の惨殺死体の件は、やはりＳ号絡みだったらしいです。",
-		   NULL, "Apparently the slaughtered corpse in the Oujikawa River is related to the S-group, as we thought.", Line_Normal);
+		   NULL, "Aparentemente o cadáver dilacerado que encontramos no Rio Oujikawa está relacionado ao grupo-S, como havíamos pensado.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -37,20 +37,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　ウラはまだ確認中ですが、ホトケがＳ号のカネを自分が用意した数十の架空口座に上限額いっぱいまで送金して、１億くらいはイったらしいです。",
-		   NULL, "We're still verifying what happened behind the scenes, but apparently the deceased filled up dozens of self-created fictional bank accounts to their limits with money from the S-group, reaching around one hundred million yen.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ainda estamos verificando o que aconteceu nos bastidores, mas, aparentemente, a falecida usou dezenas de contas bancárias fictícias até os seus limites, com dinheiro do grupo-S, atingindo cerca de cem milhões de ienes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　背後には元Ｓ号の筋で３～４人の男が絡んでるようです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　背後には元Ｓ号の筋で３〜４人の男が絡んでるようです。",
-		   NULL, "It appears there were three or four men with former S-group connections involved in this.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Parece que havia três ou quatro homens, com antigas conexões com o grupo-S, envolvidos nisto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　数千万くらいを引き出して、すでに蒸発しています￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　数千万くらいを引き出して、すでに蒸発しています。",
-		   NULL, "They've already disappeared along with millions of yen.", Line_Normal);
+		   NULL, "Eles já desapareceram, junto com os milhões de ienes.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -58,20 +58,20 @@ void main()
 //　ホトケはその辺りを聞き出すために拷問され、以後の見せしめのために惨殺されたのはほぼ間違いないとのことです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ホトケはその辺りを聞き出すために拷問され、以後の見せしめのために惨殺されたのはほぼ間違いないとのことです。",
-		   NULL, "The deceased was tortured on that point for information, and she was clearly slaughtered as an example to others.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A falecida foi torturada a fim de obterem informações, e ela foi claramente dilacerada para servir de exemplo para os outros.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　蒸発した連中は、スゴ腕何人かに追跡させているらしいです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　蒸発した連中は、スゴ腕何人かに追跡させているらしいです。",
-		   NULL, "There are apparently some real wizards chasing down the people who disappeared.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Há aparentemente alguns assistentes perseguindo as pessoas que desapareceram.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　あと、親交のある周辺のマル暴に匿わないよう回状を回しています￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あと、親交のある周辺のマル暴に匿わないよう回状を回しています。",
-		   NULL, "They're also spreading letters to related yakuza groups not to harbor them.", Line_Normal);
+		   NULL, "Eles também estão enviando cartas aos grupos yakuza relacionados, dizendo para não abrigá-los.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -79,27 +79,27 @@ void main()
 //　北条鉄平がその一味のひとりであるというウラは未だ取れていません＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条鉄平がその一味のひとりであるというウラは未だ取れていません。",
-		   NULL, "There's still no evidence that Teppei Houjou is one of those people.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ainda não há evidências de que Houjou Teppei é uma dessas pessoas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　重春課長の見たところでは、何も知らされていないみたいです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　重春課長の見たところでは、何も知らされていないみたいです。",
-		   NULL, "As far as Chief Shigeharu can tell, he hasn't been told anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pelo que o Chefe Shigeharu tem visto, nada foi anunciado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　ヒモのくせに信用されてなかったってことですかね＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ヒモのくせに信用されてなかったってことですかね。",
-		   NULL, " He was her pimp, but she didn't trust him at all, did she?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Para alguém tão dependente, o homem não era absolutamente confiável?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　北条鉄平は興宮のアパートを出て、雛見沢の元の家に戻った様子です￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条鉄平は興宮のアパートを出て、雛見沢の元の家に戻った様子です。",
-		   NULL, "Teppei Houjou has left the apartment in Okinomiya and has returned to his former residence in Hinamizawa.", Line_Normal);
+		   NULL, "Teppei Houjou deixou seu apartamento em Okinomiya e retornou à sua antiga residência em Hinamizawa.", Line_Normal);
 	ClearMessage();
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
