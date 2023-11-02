@@ -18,7 +18,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜北条家について＞",
-		   NULL, "<The Houjou Family>", Line_Normal);
+		   NULL, "<A Família Houjou>", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -26,28 +26,28 @@ void main()
 //　オヤシロさまの祟りによって、毎年２人ずつの犠牲者が出ている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまの祟りによって、毎年２人ずつの犠牲者が出ている。",
-		   NULL, "Every year, Oyashiro-sama's curse claims two victims.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A cada ano, a maldição de Oyashiro-sama clama por duas vítimas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　すでに４年続き、犠牲者は８人になったわけだが、その半数の人間が北条姓を持つことは特筆に価する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに４年続き、犠牲者は８人になったわけだが、その半数の人間が北条姓を持つことは特筆に価する。",
-		   NULL, "This means that with four years in a row, there have been eight now, but it's worthwhile to note half of them have been members of this family.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isto significa que, por quatro anos consecutivos, foram oito pessoas até agora, mas é digno de atenção que metade delas eram membros desta família.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //※２年目の祟りである転落事故ではダム推進派であった北条氏本人が死に、その妻が失踪した＠（危難失踪扱いでその翌年に死亡宣告＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "※２年目の祟りである転落事故ではダム推進派であった北条氏本人が死に、その妻が失踪した。",
-		   NULL, "Note: The curse on the second year, a certain falling accident, involved the death of Houjou, a dam proponent, and the disappearance of his wife. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nota: A maldição do segundo ano, um certo acidente com queda, envolveu a morte de Houjou, um defensor da represa, e o desaparecimento de sua esposa. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（危難失踪扱いでその翌年に死亡宣告）",
-		   NULL, "(She was pronounced dead the following year after being considered to have vanished under perilous circumstances.)", Line_Normal);
+		   NULL, "(Ela foi declarada morta no ano seguinte, depois de ter sido considerada desaparecida sob circunstâncias perigosas.)", Line_Normal);
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　４年目の祟りでは北条兄妹の養母である叔母が死に、北条氏の長男が失踪した￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　４年目の祟りでは北条兄妹の養母である叔母が死に、北条氏の長男が失踪した。",
-		   NULL, "The curse on the fourth year involved the death of the Houjou sibling's aunt, who was then their foster mother, and the disappearance of the elder brother.", Line_Normal);
+		   NULL, "A maldição sobre o quarto ano envolveu a morte da tia dos irmãos Houjou, que era então a mãe adotiva deles, e o desaparecimento do irmão mais velho.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -55,20 +55,20 @@ void main()
 //　北条家は貧しい家庭で、北条氏の仕事も満帆とは言い難かった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条家は貧しい家庭で、北条氏の仕事も満帆とは言い難かった。",
-		   NULL, "The Houjou family is a poor one, and it's hard to say Mr. Houjou's job went very well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A família Houjou é pobre, e é difícil dizer se o trabalho do Sr. Houjou tem corrido bem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　親類の縁での再就職をあてに、母方の故郷へ引越す計画があったと言う＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　親類の縁での再就職をあてに、母方の故郷へ引越す計画があったと言う。",
-		   NULL, "Apparently, upon reemployment via family connections, there was a plan for them to return to the home of the mother's side of the family.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aparentemente, conseguindo um novo emprego através de ligações familiares, havia um plano para eles voltarem para a casa da família, pelo lado da mãe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　そんな北条氏にとって、雛見沢ダム計画による立ち退きと高額な補償金の給付は、まさに渡りに船だったと言えるだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな北条氏にとって、雛見沢ダム計画による立ち退きと高額な補償金の給付は、まさに渡りに船だったと言えるだろう。",
-		   NULL, "For Mr. Houjou, the eviction due to the Hinamizawa dam project and the payment of a large amount of compensation money was essentially a windfall.", Line_Normal);
+		   NULL, "Para o Sr. Houjou, a evacuação devido ao projeto da represa de Hinamizawa, e o pagamento de uma grande quantidade de dinheiro em compensação, era essencialmente um golpe de sorte.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -76,14 +76,14 @@ void main()
 //　北条氏は建設省の交渉初期から積極的に応じ、ダム推進派の雛見沢のまとめ役として抜擢された＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条氏は建設省の交渉初期から積極的に応じ、ダム推進派の雛見沢のまとめ役として抜擢された。",
-		   NULL, "Mr. Houjou actively embraced the Ministry of Construction's negotiations from an early stage and was selected as representative of the dam proponents.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O Sr. Houjou aceitou agressivamente as negociações com o Ministério da Construção, e selecionou outros de Hinamizawa que também apoiavam a represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　その過程において、建設省から金銭による買収があったと囁かれるが、真偽はわからない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その過程において、建設省から金銭による買収があったと囁かれるが、真偽はわからない。",
-		   NULL, "It was rumored he had been bought out by the Ministry of Construction for doing so, but the truth is unknown.", Line_Normal);
+		   NULL, "Houve boatos de que ele foi comprado pelo Ministério da Construção, mas a verdade é desconhecida.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -91,27 +91,27 @@ void main()
 //　だが、ダム推進派は極めて少数だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、ダム推進派は極めて少数だった。",
-		   NULL, "However, the dam's proponents were in the vastly outnumbered minority.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, os defensores da represa estavam em minoria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　しかも、園崎家が強力に地盤を固め、反ダムへの結束を強化し始めると、北条氏を除く全てのダム推進派は反ダムへ鞍替えすることになる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも、園崎家が強力に地盤を固め、反ダムへの結束を強化し始めると、北条氏を除く全てのダム推進派は反ダムへ鞍替えすることになる。",
-		   NULL, "In addition, as the Sonozaki family strengthened its own foundation and promised support against the dam, all of the proponents save for Mr. Houjou switched over to the anti-dam side.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em adição, enquanto a família Sonozaki fortalecia suas fundações e prometia suporte contra a represa, todos os defensores do projeto, juntados pelo Sr. Houjou, pularam para o lado anti-represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　この時点で雛見沢は完全に反ダムで結束し、北条家はダム計画推進の手先として槍玉に挙げられることになった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この時点で雛見沢は完全に反ダムで結束し、北条家はダム計画推進の手先として槍玉に挙げられることになった。",
-		   NULL, "At this point, Hinamizawa was completely united against the dam, and Mr. Houjou was held up to ridicule as a stooge of the dam project's proponents.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Neste ponto, Hinamizawa estava completamente unida contra a represa, e o Sr. Houjou foi ridicularizado como um fantoche dos defensores do projeto da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　反ダム結束の為のスケープゴートにされたと言ってもいいだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　反ダム結束の為のスケープゴートにされたと言ってもいいだろう。",
-		   NULL, "He was, essentially, used as a scapegoat for the anti-dam coalition.", Line_Normal);
+		   NULL, "Ele foi, basicamente, usado como um bode expiatório pela coalizão anti-represa.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -119,13 +119,13 @@ void main()
 //　結局、ダム計画は初めてのオヤシロさまの祟りである「バラバラ殺人事件」を最後に瓦解する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局、ダム計画は初めてのオヤシロさまの祟りである「バラバラ殺人事件」を最後に瓦解する。",
-		   NULL, "In the end, the dam project collapsed with Oyashiro-sama's curse and the dismemberment incident.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No final, o projeto da represa colapsou, com a maldição de Oyashiro-sama e o incidente do desmembramento.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　だが、ダム計画に加担した仇敵への報復は今日でも続けられているのだ...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、ダム計画に加担した仇敵への報復は今日でも続けられているのだ…。",
-		   NULL, "However, punishment towards the bitter enemies supporting the dam project continues to this day...", Line_Normal);
+		   NULL, "Entretanto, a punição para os amargos inimigos que apoiaram o projeto da represa continua até hoje...", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -133,7 +133,7 @@ void main()
 //　ダム計画に加担した、もしくは当時にネガティブな評価を持つ者は今日、ほとんど残っていない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム計画に加担した、もしくは当時にネガティブな評価を持つ者は今日、ほとんど残っていない。",
-		   NULL, "There are not many left today who supported the dam project, nor who had a negative reputation at the time.", Line_Normal);
+		   NULL, "Não sobraram muitos hoje, dos que apoiavam o projeto da represa, ou que tinham uma reputação negativa na época.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -141,9 +141,9 @@ void main()
 //　残る祟り候補がいるとすれば、昨年の主婦撲殺事件の被害者の夫である北条鉄平＠北条氏の娘の北条沙都子＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　残る祟り候補がいるとすれば、昨年の主婦撲殺事件の被害者の夫である北条鉄平。",
-		   NULL, "If there were any candidates left for the curse, it's the husband of the housewife who was beaten to death last year, Teppei Houjou.", Line_WaitForInput);
+		   NULL, "Se há um candidato a receber a maldição, é o marido da dona de casa que foi espancada até a morte no ano passado, Houjou Teppei.", Line_WaitForInput);
 	OutputLine(NULL, "北条氏の娘の北条沙都子。",
-		   NULL, " And Mr. Houjou's daughter, Satoko Houjou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E a filha do Sr. Houjou, Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -152,20 +152,20 @@ void main()
 //　奇しくも、残る候補者は２人だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　奇しくも、残る候補者は２人だ。",
-		   NULL, "Strangely, these two are the only candidates left.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Estranhamente, os dois são os únicos candidatos que sobraram.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　今年の祟りは、この２人に対して下されるのか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今年の祟りは、この２人に対して下されるのか…？",
-		   NULL, "Will this year's curse come down on the two of them...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Será que a maldição deste ano vai cair sobre os dois...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　この２人を観察する価値は、十二分にある......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この２人を観察する価値は、十二分にある……。",
-		   NULL, "There is more than enough value in observing them both...", Line_Normal);
+		   NULL, "As circunstâncias são mais do que o suficiente para mantê-los sob observação...", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
