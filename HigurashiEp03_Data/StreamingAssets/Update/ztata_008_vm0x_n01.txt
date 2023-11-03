@@ -51,7 +51,7 @@ void dialog011()
 //　そんな日々に終止符を打ってくれたのは、......どこの誰とも知らない、覚醒剤常習癖のおかしなヤツだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな日々に終止符を打ってくれたのは、……どこの誰とも知らない、薬物中毒のおかしなヤツだ。",
-		   NULL, "The one who brought an end to those terrible days... was some crazy drug addict nobody knew.", Line_Normal);
+		   NULL, "Aquele que trouxe um fim àqueles dias terríveis... foi um cara estranho, viciado em drogas, que ninguém conhecia.", Line_Normal);
 	ClearMessage();
 }
 
