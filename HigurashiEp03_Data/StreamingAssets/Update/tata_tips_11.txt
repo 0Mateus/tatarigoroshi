@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和ＸＸ年度",
-		   NULL, "Year 19__", Line_ContinueAfterTyping);
+		   NULL, "Ano de Showa __", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -30,7 +30,7 @@ void main()
 //　主たる虐待者（厚生省報告例）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　主たる虐待者（厚生省報告例）",
-		   NULL, "Principal Abusers (in cases reported to the Ministry of Health and Welfare)", Line_ContinueAfterTyping);
+		   NULL, "Abusadores Principais (nos casos reportados ao Ministério da Saúde e Bem-Estar)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -55,7 +55,7 @@ void main()
 //　実母
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実母",
-		   NULL, "Mother by blood:", Line_ContinueAfterTyping);
+		   NULL, "Mãe consanguínea:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -77,7 +77,7 @@ void main()
 //　実母以外の母
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実母以外の母",
-		   NULL, "Mother not by blood:", Line_ContinueAfterTyping);
+		   NULL, "Mãe não-consanguínea:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -99,7 +99,7 @@ void main()
 //　実父
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実父",
-		   NULL, "Father by blood:", Line_ContinueAfterTyping);
+		   NULL, "Pai consanguíneo:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -121,7 +121,7 @@ void main()
 //　実父以外の父
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実父以外の父",
-		   NULL, "Father not by blood:", Line_ContinueAfterTyping);
+		   NULL, "Pai não-consanguíneo:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -141,7 +141,7 @@ void main()
 //　昭和ＸＸ年度
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和ＸＸ年度",
-		   NULL, "Year 19__", Line_ContinueAfterTyping);
+		   NULL, "Ano de Showa __", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -152,7 +152,7 @@ void main()
 //　虐待の内容別相談件数（厚生省報告例）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　虐待の内容別相談件数（厚生省報告例）",
-		   NULL, "Instances by Type of Abuse (in cases reported to the Ministry of Health and Welfare)", Line_ContinueAfterTyping);
+		   NULL, "Instâncias por Tipo de Abuso (nos casos reportados ao Ministério da Saúde e Bem-Estar)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -174,7 +174,7 @@ void main()
 //　身体的暴力
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　身体的暴力",
-		   NULL, "Physical abuse:", Line_ContinueAfterTyping);
+		   NULL, "Abuso físico:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -196,7 +196,7 @@ void main()
 //　ネグレクト（育児放棄）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ネグレクト（育児放棄）",
-		   NULL, "Neglect (abandonment of child):", Line_ContinueAfterTyping);
+		   NULL, "Negligência (abandono da criança):", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -218,7 +218,7 @@ void main()
 //　心理的虐待
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心理的虐待",
-		   NULL, "Psychological abuse:", Line_ContinueAfterTyping);
+		   NULL, "Abuso psicológico:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -240,7 +240,7 @@ void main()
 //　登校禁止
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　登校禁止",
-		   NULL, "Forbidden from going to school:", Line_ContinueAfterTyping);
+		   NULL, "Proibição de ir à escola:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -262,7 +262,7 @@ void main()
 //　性的暴行
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　性的暴行",
-		   NULL, "Sexual violence:", Line_ContinueAfterTyping);
+		   NULL, "Violência sexual:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
