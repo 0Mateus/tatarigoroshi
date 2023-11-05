@@ -16,7 +16,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "第二条（児童虐待の定義）",
-		   NULL, "Article 2 (Definition of Child Abuse)", Line_ContinueAfterTyping);
+		   NULL, "Artigo 2 (Definição de Abuso Infantil)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -27,7 +27,7 @@ void main()
 //　「児童虐待」とは、保護者（親権を行う者、未成年後見人その他の者で、児童を現に監護するものをいう。以下同じ）が/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「児童虐待」とは、保護者",
-		   NULL, "The term \"child abuse\" means the following acts committed by a custodian", Line_ContinueAfterTyping);
+		   NULL, "O termo \"abuso infantil\" refere-se aos seguintes atos cometidos por um custodiante", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -35,7 +35,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（親権を行う者、未成年後見人その他の者で、児童を現に監護するものをいう。以下同じ）が",
-		   NULL, " (meaning a person who exercises parental authority, a guardian of a minor or other person who is currently engaged in the custody of a child; hereinafter the same shall apply)", Line_ContinueAfterTyping);
+		   NULL, " (significando uma pessoa que exerce a autoridade parental, um guardião do menor ou outra pessoas que detém correntemente a custódia da criança; a seguir o mesmo se aplicará)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -44,7 +44,7 @@ void main()
 //その監護する児童（十八歳に満たない者をいう。以下同じ）に対し、次に掲げる行為をすることをいう。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その監護する児童（十八歳に満たない者をいう。以下同じ）に対し、次に掲げる行為をすることをいう。",
-		   NULL, " against a child (meaning a person who is under 18 years of age; hereinafter the same shall apply):", Line_ContinueAfterTyping);
+		   NULL, " contra uma criança (significando um menor de 18 anos de idade; a seguir o mesmo se aplicará):", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -55,7 +55,7 @@ void main()
 //一　児童の身体に外傷を生じ、又は生じるおそれのある暴行を加えること。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一　児童の身体に外傷を生じ、又は生じるおそれのある暴行を加えること。",
-		   NULL, "(I) Assault the child in a manner that will cause or is likely to cause external injury on the body of a child;", Line_ContinueAfterTyping);
+		   NULL, "(I) Ataque à criança, de uma forma que irá causar ou é susceptível de causar lesão externa no corpo da criança;", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -66,7 +66,7 @@ void main()
 //二　児童にわいせつな行為をすること又は児童をしてわいせつな行為をさせること。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "二　児童にわいせつな行為をすること又は児童をしてわいせつな行為をさせること。",
-		   NULL, "(II) Engage in indecency against the child or cause the child to engage in indecency;", Line_ContinueAfterTyping);
+		   NULL, "(II) Agir de modo indecente contra a criança ou fazer a criança agir de modo indecente;", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -78,7 +78,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "三　児童の心身の正常な発育を妨げるような著しい減食又は長時間の放置その他の保護者としての監護を著しく怠ること。",
-		   NULL, "(III) Substantially reduce the amount of food for the child or abandon and neglect the child for a long time period in a manner that may interfere with normal development of the child mentally or physically, or otherwise materially fail to perform the duty of a custodian; or", Line_ContinueAfterTyping);
+		   NULL, "(III) Reduzir substancialmente a quantidade de alimentos para a criança, ou abandonar e negligenciar a criança por um longo período de tempo, de uma forma que pode interferir com o desenvolvimento normal da criança, mental ou fisicamente—ou então falhar em executar os deveres de um custodiante; ou;", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -89,7 +89,7 @@ void main()
 //四　児童に著しい心理的外傷を与える言動を行うこと。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "四　児童に著しい心理的外傷を与える言動を行うこと。",
-		   NULL, "(IV) Speak or behave in a manner that would be significantly traumatic to the child.", Line_ContinueAfterTyping);
+		   NULL, "(IV) Falar ou comportar-se de uma maneira que poderia ser potencialmente traumática à criança.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -99,7 +99,7 @@ void main()
 //第三条（児童に対する虐待の禁止）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "第三条（児童に対する虐待の禁止）",
-		   NULL, "Article 3 (Prohibition of Child Abuse)", Line_ContinueAfterTyping);
+		   NULL, "Artigo 3 (Probição de Abuso Infantil)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -109,7 +109,7 @@ void main()
 //　何人も、児童に対し、虐待をしてはならない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何人も、児童に対し、虐待をしてはならない。",
-		   NULL, "No person shall abuse a child.", Line_ContinueAfterTyping);
+		   NULL, "Nenhuma pessoa poderá abusar de uma criança.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -120,7 +120,7 @@ void main()
 //　　平成十二年五月二十四日号外法律第八十二号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　平成十二年五月二十四日号外法律第八十二号",
-		   NULL, "Law number: Act No. 82 of 2000", Line_ContinueAfterTyping);
+		   NULL, "Lei: Ato No. 82 de Heisei 12 (2000)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -132,7 +132,7 @@ void main()
 //!s0　　　　　　!s50『児童虐待の防止等に関する法律』
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜法務・厚生大臣署名＞",
-		   NULL, "<Authored by the Minister of Health and Welfare>", Line_ContinueAfterTyping);
+		   NULL, "<De autoria do Ministro da Saúde e Bem-Estar>", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 
