@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "福児庶エ２−３第４４号",
-		   NULL, "Children with special needs, general, D2-3 Number 44", Line_ContinueAfterTyping);
+		   NULL, "Fukujisho D2-3 Número 44", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -31,7 +31,7 @@ void main()
 //昭和５２年Ｘ月ＸＸ日
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５２年Ｘ月ＸＸ日",
-		   NULL, "______ __, 1977", Line_ContinueAfterTyping);
+		   NULL, "______ __, Showa 52 (1977)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -42,7 +42,7 @@ void main()
 //児童名：
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "児童名：",
-		   NULL, "Child name:", Line_ContinueAfterTyping);
+		   NULL, "Nome da criança:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -53,7 +53,7 @@ void main()
 //　北条沙都子（Ｘ歳）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条沙都子（Ｘ歳）",
-		   NULL, "Satoko Houjou (_ y/o)", Line_ContinueAfterTyping);
+		   NULL, "Houjou Satoko (__ anos)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -64,7 +64,7 @@ void main()
 //　鹿骨市雛見沢村ＸＸＸ番地在住/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鹿骨市雛見沢村ＸＸＸ番地在住",
-		   NULL, "Residence: ___ Hinamizawa Village, Shishibone", Line_ContinueAfterTyping);
+		   NULL, "Residência: ___ Vila de Hinamizawa, Shishibone", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -76,7 +76,7 @@ void main()
 //（１）相談の経路
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）相談の経路",
-		   NULL, "(I) Consultation circumstances", Line_ContinueAfterTyping);
+		   NULL, "(I) Circunstâncias de consulta", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -88,7 +88,7 @@ void main()
 //　本児より子ども虐待ＳＯＳに電話相談有り。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本児より子ども虐待ＳＯＳに電話相談有り。",
-		   NULL, "Telephone SOS from child of child abuse.", Line_ContinueAfterTyping);
+		   NULL, "Telefonema de criança com um SOS de abuso infantil.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -100,7 +100,7 @@ void main()
 //（２）虐待の状況
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）虐待の状況",
-		   NULL, "(II) Abuse situation", Line_ContinueAfterTyping);
+		   NULL, "(II) Situação de abuso", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -111,7 +111,7 @@ void main()
 //　本児が養父に身体的虐待を受けているという訴え。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本児が養父に身体的虐待を受けているという訴え。",
-		   NULL, "Child claims she is being physically abused by her adoptive father.", Line_ContinueAfterTyping);
+		   NULL, "A criança clama que está sendo fisicamente abusada por seu pai adotivo.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -121,7 +121,7 @@ void main()
 //（３）家族構成（●虐待者）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）家族構成（●虐待者）",
-		   NULL, "(III) Family structure (● marks abusers)", Line_ContinueAfterTyping);
+		   NULL, "(III) Estrutura familiar (● marca abusadores)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -132,7 +132,7 @@ void main()
 //　●養父、実母、兄、本児
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　●養父、実母、兄、本児",
-		   NULL, "●Adoptive father, real mother, older brother, child in question", Line_ContinueAfterTyping);
+		   NULL, "●Pai adotivo, mãe real, irmão mais velho, criança em questão", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -143,7 +143,7 @@ void main()
 //　※養父と実母は昭和ＸＸ年に入籍。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　※養父と実母は昭和ＸＸ年に入籍。",
-		   NULL, "Note: Adoptive father and real mother entered family registry in 19__.", Line_ContinueAfterTyping);
+		   NULL, "Nota: O pai adotivo e a mãe real entram no registro da família no ano de Showa __.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -154,7 +154,7 @@ void main()
 //本児は離婚した前夫との子。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本児は離婚した前夫との子。",
-		   NULL, "The child is the daughter of the mother's previous husband.", Line_ContinueAfterTyping);
+		   NULL, "A criança é filha do marido anterior da mãe.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -166,7 +166,7 @@ void main()
 //（４）児童相談所の対応
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（４）児童相談所の対応",
-		   NULL, "(IV) Child consultation center's response", Line_ContinueAfterTyping);
+		   NULL, "(IV) Resposta do centro de consulta à criança", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -177,7 +177,7 @@ void main()
 //　本児より電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本児より電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。",
-		   NULL, "On the day of the child's telephone consultation, the center called the child's school and asked of her situation.", Line_ContinueAfterTyping);
+		   NULL, "No dia da consulta telefônica anônima, o centro chamou a escola da criança e perguntou a respeito da situação dela.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -186,7 +186,7 @@ void main()
 
 //　即日、担当児童福祉司が本児宅を訪問し、面談を行なった。
 	OutputLine(NULL, "　即日、担当児童福祉司が本児宅を訪問し、面談を行なった。",
-		   NULL, " On that day, the child welfare officer on duty visited the child's house and conducted an interview.", Line_ContinueAfterTyping);
+		   NULL, " Naquele dia, o oficial do bem-estar em plantão visitou a casa da criança e conduziu uma entrevista.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -197,7 +197,7 @@ void main()
 //　養父は真摯に指導を受け入れ、以後、市の育児ワークショップを受講することに同意した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　養父は真摯に指導を受け入れ、以後、市の育児ワークショップを受講することに同意した。",
-		   NULL, "The adoptive father sincerely listened to instruction and agreed to take child-raising workshops in the city from now on.", Line_ContinueAfterTyping);
+		   NULL, "O pai adotivo ouviu sinceramente as instruções e concordou em participar de oficinas, na cidade, sobre a criação de filhos, a partir de agora.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -205,7 +205,7 @@ void main()
 
 //　助言指導とし、経過を観察することとする。/
 	OutputLine(NULL, "　助言指導とし、経過を観察することとする。",
-		   NULL, " As part of the suggested coaching, the center will continue to observe the situation.", Line_ContinueAfterTyping);
+		   NULL, " Como parte do aconselhamento sugerido, o centro vai continuar a observar a situação.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -217,7 +217,7 @@ void main()
 //（５）その他
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（５）その他",
-		   NULL, "(V) Other notes", Line_ContinueAfterTyping);
+		   NULL, "(V) Outras notas", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -228,7 +228,7 @@ void main()
 //　市教育相談所で本児に対し数度のカウンセリングの結果、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　市教育相談所で本児に対し数度のカウンセリングの結果、",
-		   NULL, "As a result of numerous counseling sessions at the city's education consultation office regarding the child,", Line_ContinueAfterTyping);
+		   NULL, "Como resultado de numerosas sessões de aconselhamento na cidade, no escritório de consulta de educação infantil,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -238,7 +238,7 @@ void main()
 //本児の養父への過度の不信、コミュニケーション不足が原因である可能性が高いことがわかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本児の養父への過度の不信、コミュニケーション不足が原因である可能性が高いことがわかった。",
-		   NULL, "we learned there was a high possibility the cause of the child's excessive distrust towards her adoptive father was the result of a lack of communication.", Line_ContinueAfterTyping);
+		   NULL, "nós aprendemos que havia uma grande possibilidade da causa da desconfiança excessiva da criança em relação ao seu pai adotivo ser o resultado da falta de comunicação.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -249,7 +249,7 @@ void main()
 //　当初訴えのあったような虐待は実際には行なわれておらず、本児が養父を遠ざけるため、虚実の訴えをした様子。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　当初訴えのあったような虐待は実際には行なわれておらず、本児が養父を遠ざけるため、虚実の訴えをした様子。",
-		   NULL, "The abuse she claimed hadn't actually taken place—she had made a false report to distance herself from her adoptive father.", Line_ContinueAfterTyping);
+		   NULL, "O abuso que ela reportou não teve real ocorrência—ela fez uma denúncia falsa para poder se afastar do pai adotivo.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -259,7 +259,7 @@ void main()
 //（以下は当時の担当者のえんぴつによる走り書き）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（以下は当時の担当者のえんぴつによる走り書き）",
-		   NULL, "(Below is a note written in pencil by the person on duty at the time)", Line_ContinueAfterTyping);
+		   NULL, "(Abaixo está uma nota escrita a lápis pela pessoa em plantão naquela hora)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -270,7 +270,7 @@ void main()
 //　むしろ娘の方に問題があったようだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろ娘の方に問題があったようだ。",
-		   NULL, "The problem appeared to be more with the daughter.", Line_ContinueAfterTyping);
+		   NULL, "O problema parece ser mais com a filha.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -279,7 +279,7 @@ void main()
 
 //　虐待話はほとんどが作り話の可能性があると市教育相談所のＦ主査。
 	OutputLine(NULL, "　虐待話はほとんどが作り話の可能性があると市教育相談所のＦ主査。",
-		   NULL, " Chief Investigator F of the city's education consultation office said that most of her stories of abuse were likely fabrications.", Line_ContinueAfterTyping);
+		   NULL, " O Investigador Chefe F, do escritório de consulta à educação da cidade, disse que a maioria de suas histórias eram inventadas.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -290,7 +290,7 @@ void main()
 //　今後は本児への指導を中心に行なうこととなった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今後は本児への指導を中心に行なうこととなった。",
-		   NULL, "They decided to shift the focus of their coaching to the child.", Line_ContinueAfterTyping);
+		   NULL, "Eles decidiram mudar o foco do aconselhamento para a criança.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -299,7 +299,7 @@ void main()
 
 //　本児の話は真に受けすぎないように注意。/
 	OutputLine(NULL, "　本児の話は真に受けすぎないように注意。",
-		   NULL, " Be cautious not to take everything the child says as truth.", Line_ContinueAfterTyping);
+		   NULL, " Seja cauteloso em não tomar tudo o que a criança diz como verdade.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
