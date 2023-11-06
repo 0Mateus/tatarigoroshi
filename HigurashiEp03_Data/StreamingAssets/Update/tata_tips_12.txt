@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５８年６月１８日",
-		   NULL, "June 18, 1983", Line_ContinueAfterTyping);
+		   NULL, "18 de junho, Showa 58 (1983)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -30,7 +30,7 @@ void main()
 //北条沙都子に関する虐待問題について（緊急）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "北条沙都子に関する虐待問題について（緊急）",
-		   NULL, "Abuse issues regarding Satoko Houjou (URGENT)", Line_ContinueAfterTyping);
+		   NULL, "Problemas de abuso relacionados à Houjou Satoko (URGENTE)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -40,7 +40,7 @@ void main()
 //　標記の件につき、北条沙都子を緊急に保護すべきであると進言します。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　標記の件につき、北条沙都子を緊急に保護すべきであると進言します。",
-		   NULL, "We propose that Satoko Houjou must be taken into immediate custody based on the items below.", Line_ContinueAfterTyping);
+		   NULL, "Nós propomos que Houjou Satoko deve ser tomada em custódia imediata com base nos itens abaixo.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -50,7 +50,7 @@ void main()
 //１．家庭状況
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "１．家庭状況",
-		   NULL, "1. Family situation", Line_ContinueAfterTyping);
+		   NULL, "1. Situação familiar", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -61,7 +61,7 @@ void main()
 //　先日、雛見沢に戻った養父との生活はすでに破綻しており、養父による虐待は肉体的にも精神的にも耐えがたいものとなっている模様です。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先日、雛見沢に戻った養父との生活はすでに破綻しており、養父による虐待は肉体的にも精神的にも耐えがたいものとなっている模様です。",
-		   NULL, "Life with adoptive father who recently returned to Hinamizawa has already turned disastrous, and she is currently subject to unendurable physical and mental abuse from the father.", Line_ContinueAfterTyping);
+		   NULL, "A vida com o pai adotivo, que recentemente voltou a Hinamizawa, já se tornou um desastre, e ela atualmente sofre abusos físicos e mentais insuportáveis, por parte do pai.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -71,7 +71,7 @@ void main()
 //２．児童相談所の対応
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２．児童相談所の対応",
-		   NULL, "2. Child consultation center's response", Line_ContinueAfterTyping);
+		   NULL, "2. Resposta do centro de atendimento à criança", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -82,7 +82,7 @@ void main()
 //　昨日２３日に県福祉部より児童保護司が派遣されましたが、５２年度のケースにより、慎重策から継続指導の形となりました。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日２３日に県福祉部より児童保護司が派遣されましたが、５２年度のケースにより、慎重策から継続指導の形となりました。",
-		   NULL, "A child probation officer was dispatched yesterday on the 17th from the prefecture welfare office, but because of the '77 case, changed to continued coaching and cautionary action.", Line_ContinueAfterTyping);
+		   NULL, "Um oficial de justiça foi despachado ontem no dia 17, do escritório da Prefeitura para o bem-estar, mas por causa do caso 77, foi alterado para controle continuado e ação cautelar.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -93,7 +93,7 @@ void main()
 //　残念ながら相談所長は正しく状況を把握しているとは言えません。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　残念ながら相談所長は正しく状況を把握しているとは言えません。",
-		   NULL, "Unfortunately, the consultation office head does not properly understand the situation.", Line_ContinueAfterTyping);
+		   NULL, "Infelizmente, o escritório principal não compreende corretamente a situação.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -103,7 +103,7 @@ void main()
 //３．当該児の状況
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "３．当該児の状況",
-		   NULL, "3. Status of concerned child", Line_ContinueAfterTyping);
+		   NULL, "3. Status da criança em questão", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -114,7 +114,7 @@ void main()
 //　初見ではすでに鬱状態もしくはノイローゼに近い状態を発症していると思われます。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　初見ではすでに鬱状態もしくはノイローゼに近い状態を発症していると思われます。",
-		   NULL, "Child already appears to be suffering from an outbreak of something close to neurosis or manic depression.", Line_ContinueAfterTyping);
+		   NULL, "Criança já parece estar sofrendo de um surto de algo próximo à neurose ou depressão maníaca.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -125,7 +125,7 @@ void main()
 //　ストレスにより、思春期独特の不安定な状態が刺激されれば、健全な身体・精神の発育に憂慮すべき事態をもたらすでしょう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ストレスにより、思春期独特の不安定な状態が刺激されれば、健全な身体・精神の発育に憂慮すべき事態をもたらすでしょう。",
-		   NULL, "If her unstable pubescent mind is negatively stimulated by stress, it will put her development of a healthy body and mind at risk.", Line_ContinueAfterTyping);
+		   NULL, "Se sua mente púbere instável for estimulada negativamente por estresse, isso vai colocar o desenvolvimento de sua saúde corporal e mental em risco.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -136,7 +136,7 @@ void main()
 //　人道的見地からも、このまま放置することは許されません。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人道的見地からも、このまま放置することは許されません。",
-		   NULL, "This cannot be allowed to continue from a humane standpoint.", Line_ContinueAfterTyping);
+		   NULL, "Isso não pode ser permitido a continuar de um ponto de vista humano.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -146,7 +146,7 @@ void main()
 //４．家庭裁判所への申し立て
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "４．家庭裁判所への申し立て",
-		   NULL, "4. Allegations made to the family court", Line_ContinueAfterTyping);
+		   NULL, "4. Alegações feitas ao tribunal de família", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -157,7 +157,7 @@ void main()
 //　以上から、北条沙都子を緊急に保護すべきであると進言します。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　以上から、北条沙都子を緊急に保護すべきであると進言します。",
-		   NULL, "We propose, based on the above items, that Satoko Houjou should immediately be taken into protective custody.", Line_ContinueAfterTyping);
+		   NULL, "Nós propomos, com base nos itens acimas, que Houjou Satoko seja imediatamete tomada em custódia para proteção.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -168,7 +168,7 @@ void main()
 //　家裁に緊急に法２８条申し立てをし、一時保護を行うべきです。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家裁に緊急に法２８条申し立てをし、一時保護を行うべきです。",
-		   NULL, "She should be secured temporarily under emergency allegations to the family court under Article 28.", Line_ContinueAfterTyping);
+		   NULL, "Ela deve ser protegida temporariamente, sob a alegação de emergência, pelo tribunal de família, nos termos do artigo 28.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -179,7 +179,7 @@ void main()
 //　緊急に、関係各機関への調整を求めるものであります。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　緊急に、関係各機関への調整を求めるものであります。",
-		   NULL, "We request emergency coordination between all related agencies.", Line_ContinueAfterTyping);
+		   NULL, "Nós solicitamos a coordenação de emergência entre todas as agências relacionadas.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
