@@ -6,7 +6,7 @@ void dialog000()
 {
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300325", 256, TRUE);
 	OutputLine(NULL, "…ちょっと私、寝ぼけてるみたい。",
-		   NULL, " ...I think I'm still a little tipsy.", Line_WaitForInput);
+		   NULL, " ...Eu acho que estou um pouco cansada.", Line_WaitForInput);
 }
 
 void dialog001()
@@ -15,9 +15,9 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300344", 256, TRUE);
 	OutputLine(NULL, "「確かに状況証拠は揃ってるけど、……多分、圭ちゃんの推理ははずれだと思う。",
-		   NULL, "\"The circumstantial evidence is all there... but I think your deduction is wrong.", Line_WaitForInput);
+		   NULL, "\"A evidência circunstancial pode existir... mas eu acho que sua dedução está errada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300345", 256, TRUE);
 	OutputLine(NULL, "……県内のどっかで捕まったロクデナシが、犯行を自供したって言うし。」",
-		   NULL, " ...They caught some lowlife somewhere in the prefecture and he apparently turned himself in for the crime.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Eles pegaram um malfeitor em algum lugar nesta Prefeitura, e este aparentemente assumiu o crime.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
