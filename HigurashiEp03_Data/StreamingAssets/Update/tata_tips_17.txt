@@ -17,7 +17,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "興宮警察署　指令センター通信記録",
-		   NULL, "Okinomiya Police Station Command Center Transmission Recording", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Centro de Comando de Registro de Informação", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -28,7 +28,7 @@ void main()
 //６月２０日２０時８分
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "６月２０日２０時８分",
-		   NULL, "June 20, 8:08 PM", Line_ContinueAfterTyping);
+		   NULL, "20 de Junho, 20:08", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -38,10 +38,10 @@ void main()
 	DrawScene("background/kuruma4", 400 );
 
 //「こちら興宮ＳＰ、感度良好でーす。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3001", 256, TRUE);
 	OutputLine(NULL, "「こちら興宮ＰＳ、感度良好でーす。」",
-		   NULL, "\"This is Okinomiya police station, we read you loud and clear.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Aqui é a Delegacia de Polícia de Okinomiya, alto e claro.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -49,7 +49,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700232", 256, TRUE);
 	OutputLine(NULL, "「あー、車両ナンバー照会をお願いします。",
-		   NULL, "\"Hello, we'd like you to look up a license plate for us.", Line_Continue);
+		   NULL, "\"Olá, nós gostaríamos que vocês identificassem uma placa para a gente.", Line_Continue);
 	Wait(1500);
 	OutputLine(NULL, "鹿骨、はの４３４４。」",
 		   NULL, " Shishibone, H-4344.\"", GetGlobalFlag(GLinemodeSp));
@@ -57,13 +57,13 @@ void main()
 
 
 //「復唱、ＸＸ、ＸのＸＸＸＸ＠少々お時間もらいますがよろしいですかー？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3002", 256, TRUE);
 	OutputLine(NULL, "「復唱、鹿骨、はの４３４４。",
-		   NULL, "\"Shishibone, H-4344, all right.", Line_Continue);
+		   NULL, "\"Shishibone, H-4344, certo.", Line_Continue);
 	Wait(3300);
 	OutputLine(NULL, "少々お時間もらいますがよろしいですかー？」",
-		   NULL, " Please give us just a moment to look it up.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vamos precisar de algum tempo para encontrar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -71,7 +71,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700233", 256, TRUE);
 	OutputLine(NULL, "「お願いします。」",
-		   NULL, "\"Thank you.\"", Line_Normal);
+		   NULL, "\"Obrigado.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "down", 0, 0, 300 );
@@ -82,7 +82,7 @@ void main()
 //ナンバー照会
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ナンバー照会",
-		   NULL, "Number Match", Line_ContinueAfterTyping);
+		   NULL, "Número confirmado", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -104,7 +104,7 @@ void main()
 //所有者　ＸＸＸＸ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "所有者　ＸＸＸＸ",
-		   NULL, "Owner: _____ _____", Line_ContinueAfterTyping);
+		   NULL, "Proprietário: _____ _____", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -115,7 +115,7 @@ void main()
 //（鹿骨市雛見沢村Ｘ丁目ＸＸＸ番地在住）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（鹿骨市雛見沢村Ｘ丁目ＸＸＸ番地在住）",
-		   NULL, "(Address: _-____ Hinamizawa Village, Shishibone)", Line_ContinueAfterTyping);
+		   NULL, "(Endereço: _-____ Vila de Hinamizawa, Shishibone)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -126,7 +126,7 @@ void main()
 //車種：　ＸＸＸＸＸＸＸ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "車種：　ＸＸＸＸＸＸＸ",
-		   NULL, "Vehicle make and model: _____ ______", Line_ContinueAfterTyping);
+		   NULL, "Marca do veículo e modelo: _____ ______", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -137,7 +137,7 @@ void main()
 //盗難届け：無
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "盗難届け：無",
-		   NULL, "Theft reports: None", Line_ContinueAfterTyping);
+		   NULL, "Registros de roubo: Nenhum", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -148,7 +148,7 @@ void main()
 //特記事項：特に無し/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "特記事項：特に無し",
-		   NULL, "Special mentions: Nothing of note", Line_ContinueAfterTyping);
+		   NULL, "Menções específicas: Nenhuma", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -157,92 +157,92 @@ void main()
 	DrawScene("background/ke_s2", 400 );
 
 //「興宮ＳＰより大石車どうぞー＠先ほどのナンバーが判明しましたー＠........................大石車どうぞー＠　.................................大石車、応答願います＠..................あれ＠　............電波、悪いのかな.....................＠......大石車応答ねが..................。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3003", 256, TRUE);
 	OutputLine(NULL, "「興宮ＰＳより大石車どうぞー。",
-		   NULL, "\"Okinomiya Security Police to Ooishi.", Line_Continue);
+		   NULL, "\"Okinomiya SP (Polícia de Segurança) para Ooishi.", Line_Continue);
 	Wait(1500);
 	OutputLine(NULL, "先ほどのナンバーが判明しましたー。",
-		   NULL, " We found the license plate from earlier.", Line_WaitForInput);
+		   NULL, " Nós encontramos a placa de antes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3004", 256, TRUE);
 	OutputLine(NULL, "……………………大石車どうぞー？",
-		   NULL, " ............Ooishi, do you read?", Line_WaitForInput);
+		   NULL, " ............Ooishi, você está aí?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3005", 256, TRUE);
 	OutputLine(NULL, "　……………………………大石車、応答願います。",
-		   NULL, " ...............Ooishi, please respond. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, " ...............Ooishi, responda, por favor. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3006", 256, TRUE);
 	OutputLine(NULL, "………………あれ？",
 		   NULL, ".........Hmm?", Line_Continue);
 	Wait(2000);
 	OutputLine(NULL, "　…………電波、悪いのかな…………………。",
-		   NULL, " ......Am I getting a bad signal.........?", Line_WaitForInput);
+		   NULL, " ......Estou com um sinal ruim.........?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3007", 256, TRUE);
 	OutputLine(NULL, "……大石車応答ねが………………。」",
-		   NULL, " ...Anyone in Ooishi's car, please re—\"", Line_Normal);
+		   NULL, " ...Qualquer um no carro de Ooishi, responda por f—\"", Line_Normal);
 	ClearMessage();
 
 //「出ませんね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3008", 256, TRUE);
 	OutputLine(NULL, "「出ませんね。」",
-		   NULL, "\"Nothing, eh?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Nada, hein?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「大石さんが車両照会＠　誰の車だよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detetive</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijib_3001", 256, TRUE);
 	OutputLine(NULL, "「大石さんが車両照会？",
-		   NULL, "\"Ooishi-san wanted a license plate check?", Line_Continue);
+		   NULL, "\"Ooishi-san queria a identificação de uma placa?", Line_Continue);
 	Wait(1400);
 	OutputLine(NULL, "　誰の車だよ。」",
-		   NULL, " Whose car was it?\"", Line_Normal);
+		   NULL, " De quem era o carro?\"", Line_Normal);
 	ClearMessage();
 
 //「村人の車ですね＠......至って平凡な。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3009", 256, TRUE);
 	OutputLine(NULL, "「村人の車ですね。",
-		   NULL, "\"Someone from the village.", Line_Continue);
+		   NULL, "\"De alguém da vila.", Line_Continue);
 	Wait(1500);
 	OutputLine(NULL, "……至って平凡な。」",
-		   NULL, " ...A completely average car.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Um carro completamente comum.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「...何者だよ＠大石さんが聞いてくるからには、只者じゃないんだろ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detetive</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijib_3002", 256, TRUE);
 	OutputLine(NULL, "「…何者だよ。",
-		   NULL, "\"...Who was it?", Line_Continue);
+		   NULL, "\"...De quem era?", Line_Continue);
 	Wait(1200);
 	OutputLine(NULL, "大石さんが聞いてくるからには、只者じゃないんだろ？」",
-		   NULL, " If Ooishi-san was asking, then it can't be anyone good, right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se Ooishi-san estava perguntando, então não deve ser nada bom, certo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「特記事項欄は完全に空欄ですね＠Ｓ号指定もなし＠減点もなしだし。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3010", 256, TRUE);
 	OutputLine(NULL, "「特記事項欄は完全に空欄ですね。",
-		   NULL, "\"The special mentions column is completely blank.", Line_Continue);
+		   NULL, "\"A coluna de menções específicas está completamente em branco.", Line_Continue);
 	Wait(1800);
 	OutputLine(NULL, "Ｓ号指定もなし。",
-		   NULL, " No indication it's related to the S-group, either.", Line_WaitForInput);
+		   NULL, " Nada indica que esteja relacionado ao grupo-S.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3011", 256, TRUE);
 	OutputLine(NULL, "減点もなしだし。」",
-		   NULL, " And no demerits on it.\"", Line_Normal);
+		   NULL, " Não parece haver qualquer problema.\"", Line_Normal);
 	ClearMessage();
 
 //「...ははは、パッシングでもされて腹が立ったんじゃないの＠　あの人、根に持つとなかなか忘れないタイプなんだよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detetive</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijic_3001", 256, TRUE);
 	OutputLine(NULL, "「…ははは、パッシングでもされて腹が立ったんじゃないの？",
-		   NULL, "\"...Hahaha. Maybe it passed him on the road and he got mad.", Line_Continue);
+		   NULL, "\"...Hahaha. Talvez ele tenha sido ultrapassado e ficou irritado.", Line_Continue);
 	Wait(2500);
 	OutputLine(NULL, "　あの人、根に持つとなかなか忘れないタイプなんだよ。」",
-		   NULL, " That guy isn't the type to forget a grudge.\"", Line_Normal);
+		   NULL, " Aquele cara não é do tipo que esquece um rancor.\"", Line_Normal);
 	ClearMessage();
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
