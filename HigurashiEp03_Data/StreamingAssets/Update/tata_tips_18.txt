@@ -15,42 +15,42 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くさいと言われた。",
-		   NULL, "He said it smelled.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele disse que fedia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　ご飯がくさいと言われた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ご飯がくさいと言われた。",
-		   NULL, "He said the food smelled.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele disse que a comida fedia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　くさいのは私がくさいからだと言われた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くさいのは私がくさいからだと言われた。",
-		   NULL, "He said it smelled because I smelled.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele disse que ela fedia porque eu fedia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　くさいのはお風呂に入ってないからだと言われた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くさいのはお風呂に入ってないからだと言われた。",
-		   NULL, "He said I smelled because I don't take baths.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele disse que eu fedia porque não tomava banho.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　お前はくさい人間だから、毎日３回お風呂に入れと言われた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お前はくさい人間だから、毎日３回お風呂に入れと言われた。",
-		   NULL, "He said to take a bath three times a day because I was a smelly person.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele me disse para tomar banho 3 vezes ao dia porque eu era uma pessoa fedorenta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　１回のお風呂も、いっぱいいっぱい入らなければならないと言われた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　１回のお風呂も、いっぱいいっぱい入らなければならないと言われた。",
-		   NULL, "He said I had to stay in the bath for a long time every time.", Line_Normal);
+		   NULL, "Ele disse que deveria permanecer um longo tempo no banho a cada vez.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -58,34 +58,34 @@ void main()
 //　きっとこいつも何かに乗り移られている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きっとこいつも何かに乗り移られている。",
-		   NULL, "He must be possessed by something too.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele também deve ter sido possuído por alguma coisa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だってこれは、死んだあの男が言っていたのと同じこと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だってこれは、死んだあの男が言っていたのと同じこと。",
-		   NULL, "This is the same thing the man who died said.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Essa é a mesma coisa que aquele homem que morreu disse.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　あの男が言ったことを、どうしてこいつが知っているのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの男が言ったことを、どうしてこいつが知っているのか。",
-		   NULL, "Why does he know what that man said before?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Por que ele sabe o que aquele homem disse antes?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　それは決まってる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは決まってる。",
-		   NULL, "That much is obvious.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso é muito óbvio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　あの男に乗り移っていたものと同じものが、こいつにも乗り移っているからだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの男に乗り移っていたものと同じものが、こいつにも乗り移っているからだ。",
-		   NULL, "The same thing that possessed that man is now possessing him.", Line_Normal);
+		   NULL, "A mesma coisa que possuiu aquele homem agora está possuindo ele.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -93,28 +93,28 @@ void main()
 //　私の家の前に、突然の地震で大きな裂け目でもできないだろうか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の家の前に、突然の地震で大きな裂け目でもできないだろうか。",
-		   NULL, "Can't a sudden earthquake make a big hole in front of the house?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não é possível um terremoto de repente fazer um grande buraco na frente da casa?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　できたならきっと、あいつはそれを覗き込むに違いない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　できたならきっと、あいつはそれを覗き込むに違いない。",
-		   NULL, "If it did, he would definitely go and look into it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se isso acontecesse, ele definitivamente sairia para olhar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そうしたら、あとはドンと突き落とすのみ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうしたら、あとはドンと突き落とすのみ。",
-		   NULL, "And then I just have to push him in.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E então eu apenas teria de empurrá-lo para dentro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　そのチャンスが訪れるまで、私は負けたりなんかしない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのチャンスが訪れるまで、私は負けたりなんかしない。",
-		   NULL, "I won't give in until I get that chance.", Line_Normal);
+		   NULL, "Eu não vou desistir até eu ter essa chance.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -122,21 +122,21 @@ void main()
 //　負けるもんか泣くもんか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　負けるもんか泣くもんか。",
-		   NULL, "I won't give in, I won't cry.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não vou desistir, eu não vou chorar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　負けるもんか泣くもんか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　負けるもんか泣くもんか。",
-		   NULL, "I won't give in, I won't cry.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não vou desistir, eu não vou chorar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　あぁ、また誰かが謝りだす...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁ、また誰かが謝りだす…。",
-		   NULL, "Ahh, someone is apologizing again...", Line_Normal);
+		   NULL, "Ahh, alguém está se desculpando de novo...", Line_Normal);
 	ClearMessage();
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
