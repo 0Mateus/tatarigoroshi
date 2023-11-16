@@ -89,7 +89,7 @@ void main()
 //　単車は、お世辞にも小綺麗だとは言えない二階建てのアパートの前に停まる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　単車は、お世辞にも小綺麗だとは言えない二階建てのアパートの前に停まる。",
-		   NULL, "A motocicleta parou em frente à uma casa de dois pisos, que dificilmente poderia  ser chamada de 'organizada'.", Line_Normal);
+		   NULL, "A motocicleta parou em frente à uma casa de dois pisos, que dificilmente poderia ser chamada de 'organizada'.", Line_Normal);
 	ClearMessage();
 
 //　単車から降りたのはかなり高齢のしわだらけの男だった＠
@@ -3275,7 +3275,7 @@ void main()
 //　あぁあぁ...俺は...何て軽口をぉ...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁあぁ…俺は…何て軽口をぉ…！",
-		   NULL, "Aahhhh... Eu não posso acreditar.. que língua comprida eu tenho...!", Line_Normal);
+		   NULL, "Aahhhh... Eu não posso acreditar... que língua comprida eu tenho...!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 2, "sprite/re1b_def_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -3529,7 +3529,7 @@ void main()
 
 //ページをめくる＠............だが￥
 	OutputLine(NULL, "ページをめくる。",
-		   NULL, " Eu folheei as páginas.", Line_WaitForInput);
+		   NULL, " eu folheei as páginas.", Line_WaitForInput);
 	OutputLine(NULL, "…………だが。",
 		   NULL, " ......Entretanto.", Line_Normal);
 	ClearMessage();
@@ -3851,7 +3851,7 @@ void main()
 //　よし、これでご飯と味噌汁は（多分...）大丈夫だ＠...次は......いよいよおかず！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よし、これでご飯と味噌汁は（多分…）大丈夫だ。",
-		   NULL, "Certo, o arroz a sopa de missô estavam (provavelmente...) indo bem.", Line_WaitForInput);
+		   NULL, "Certo, o arroz e a sopa de missô estavam (provavelmente...) indo bem.", Line_WaitForInput);
 	OutputLine(NULL, "…次は……いよいよおかず！！",
 		   NULL, " ...A seguir... o acompanhamento!!", Line_Normal);
 	ClearMessage();
