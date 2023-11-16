@@ -99,7 +99,7 @@ void dialog007()
 //alt 帰りはエンジェルモートでショートケーキを飽きるまで見つめて……くっくっく！！
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29640", 256, TRUE);
 	OutputLine(NULL, "　帰りはエンジェルモートでショートケーキを飽きるまで見つめて……くっくっく！！",
-		   NULL, " Eu preciso ir ao Angel Mort no caminho para casa e encarar aquele shorcake até ficar satisfeito... hu-hu-hu!!!!", Line_WaitForInput);
+		   NULL, " Eu preciso ir ao Angel Mort no caminho para casa e encarar aquele shortcake até ficar satisfeito... hu-hu-hu!!!!", Line_WaitForInput);
 }
 
 void dialog008()
