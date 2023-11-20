@@ -1,4 +1,4 @@
-# Higurashi When They Cry Hou - Cap. 3 Tatarigoroshi
+# Higurashi When They Cry Hou - Cap.3 Tatarigoroshi
 
 Tradução do terceiro capítulo de _Higurashi When They Cry_ da [_Higurashi Eternal_](https://higurashieternal.wordpress.com/) adaptada para ser totalmente compatível com o [_07th-Mod_](https://07th-mod.com).
 
