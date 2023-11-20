@@ -73,7 +73,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>", NULL, "<color=#a17d6b>Tomita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 24, "ps3/s19/24/502400052", 256, TRUE);
 	OutputLine(NULL, "「だから北条を信じちゃいけないって警告したんですよー。」",
-		   NULL, "\"Eu te avisei sobre confiar em Satoko!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eu te avisei sobre confiar em Houjou!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
