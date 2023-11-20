@@ -3024,7 +3024,7 @@ void main()
 		   NULL, " Você não tem permissão para solicitar Kei-chan!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300487", 256, TRUE);
 	OutputLine(NULL, "　圭ちゃんは我が部のホープなんだから！！",
-		   NULL, " Ele á a esperança do nosso clube!!", Line_WaitForInput);
+		   NULL, " Ele é a esperança do nosso clube!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300488", 256, TRUE);
 	OutputLine(NULL, "　野球なんかに引っこ抜かないでー！！！」",
 		   NULL, " Não arraste ele para o baseball, como se ele fosse algum tipo de planta!!!\"", Line_Normal);
@@ -6343,7 +6343,7 @@ void main()
 		   NULL, "...E que alguns anos atrás, quando falaram sobre afundar Hinamizawa como parte do projeto da represa... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時に工事関係者が死んだとか何とかで、それがオヤシロさまの祟りってことになってるらしい。",
-		   NULL, "uma das pessoas trabalhando no canteiro de obras morreu, e as pessoas culparam a maldição de Oyashiro-sama.", Line_WaitForInput);
+		   NULL, "Uma das pessoas trabalhando no canteiro de obras morreu, e as pessoas culparam a maldição de Oyashiro-sama.", Line_WaitForInput);
 	OutputLine(NULL, "…そういう話だ。",
 		   NULL, " ...Assim eu ouvi.", Line_Normal);
 	ClearMessage();
