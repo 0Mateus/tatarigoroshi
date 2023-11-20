@@ -1531,7 +1531,7 @@ void main()
 		   NULL, "\"M-Me desculpe!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei28270", 256, TRUE);
 	OutputLine(NULL, "　興宮小学校ってのはどこだ？！」",
-		   NULL, " Onde fica a escola primária de Okonomiya?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Onde fica a escola primária de Okinomiya?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1734,7 +1734,7 @@ void main()
 //　...グラウンドからは大勢のわめき散らす声！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮小学校が見えてくる。",
-		   NULL, "A escola primária de Okonomiya veio à minha visão.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A escola primária de Okinomiya veio à minha visão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1821,7 +1821,7 @@ void main()
 	OutputLine(NULL, "　手応えは悪くない！",
 		   NULL, " A sensação não era ruim!", Line_WaitForInput);
 	OutputLine(NULL, "　大暴れしてやるぜぇえぇえぇぇ！！",
-		   NULL, " Eu vou derrotar todos ele com esta coisa!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu vou derrotar todos eles com esta coisa!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1841,7 +1841,7 @@ void main()
 		   NULL, "\"Vamos lá, Rika-chan!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei28400", 256, TRUE);
 	OutputLine(NULL, "　男、前原圭一の万夫不当な大活躍を見せてやるぜーッ！！！」",
-		   NULL, " Eu vou te mostrar o que este guerreiro poderoso e viril, Maebara Keiichi, realmente pode  fazer!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu vou te mostrar o que este guerreiro poderoso e viril, Maebara Keiichi, realmente pode fazer!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4508,7 +4508,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後輩の富田くんと岡村くんが、恐る恐る聞く。",
-		   NULL, "Tomita-kun e Okamura-kun, nossos kouhai, fizeram outra pergunta bestante nervosa.", Line_Normal);
+		   NULL, "Tomita-kun e Okamura-kun, nossos kouhai, fizeram outra pergunta bastante nervosa.", Line_Normal);
 	ClearMessage();
 
 //「...あの、......本当に...前原さんはあのピッチャーを攻略できるんですか...？＠
@@ -6117,7 +6117,7 @@ void main()
 //　俺は構えもせずに鼻で笑う￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　続く直球は、これまた凄まじい速度だったがやや暴投気味でボール！",
-		   NULL, "O arremesso seguinte teve uma velocidade incrível de novo, mas foi um pouco selvagem-que bola!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O arremesso seguinte teve uma velocidade incrível de novo, mas foi um pouco selvagem—que bola!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6134,7 +6134,7 @@ void main()
 		   NULL, "\"...O que foi, Kameda-kun?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei30030", 256, TRUE);
 	OutputLine(NULL, "そんなにど真ん中が怖いのかい？",
-		   NULL, " Com medo de ir com tudo, bem na meio da jogada?", Line_WaitForInput);
+		   NULL, " Com medo de ir com tudo, bem no meio da jogada?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei30040", 256, TRUE);
 	OutputLine(NULL, "　まさか、天下の亀田くんが…フォアボールなんて事はないだろうなぁ？」",
 		   NULL, " Todos dizem que você é o melhor... Mas você mal pode arremessar!\"", GetGlobalFlag(GLinemodeSp));
