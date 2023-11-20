@@ -5513,7 +5513,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei27160", 256, TRUE);
 	OutputLine(NULL, "沙都子が百、おいしく作ったものなら、俺はその百を丸々味わう義務がある！",
-		   NULL, "Se você fosse fazer uma centena de coisas deliciosas, então eu teria o dever de provar cada uma deles!", Line_WaitForInput);
+		   NULL, "Se você fosse fazer uma centena de coisas deliciosas, então eu teria o dever de provar cada uma delas!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei27170", 256, TRUE);
 	OutputLine(NULL, "　それが食う側のマナーってもんだ！」",
 		   NULL, " Isso são apenas boas maneiras!\"", Line_Normal);
