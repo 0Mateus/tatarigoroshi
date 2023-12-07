@@ -435,7 +435,7 @@ void main()
 //　教室で話したくないので、と校舎裏に誘われ、ますますその確信を強める...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　教室で話したくないので、と校舎裏に誘われ、ますますその確信を強める…。",
-		   NULL, "Eles não queriam falar na sala de aula, por isso eles me puxaram  para trás do prédio da escola, dando ainda mais credibilidade a esse pensamento...", Line_Normal);
+		   NULL, "Eles não queriam falar na sala de aula, por isso eles me puxaram para trás do prédio da escola, dando ainda mais credibilidade a esse pensamento...", Line_Normal);
 	ClearMessage();
 
 
@@ -4141,7 +4141,7 @@ void main()
 //　...教室の中の空気が、ぎっちりと固まり、...俺たちをコンクリートで固めてしまう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…教室の中の空気が、ぎっちりと固まり、…俺たちをコンクリートで固めてしまう。",
-		   NULL, "...A atmosfera  na sala de aula estava tensa e pesada... e petrificava a todos nós.", Line_Normal);
+		   NULL, "...A atmosfera na sala de aula estava tensa e pesada... e petrificava a todos nós.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeOutBGM( 2, 1000, TRUE );
