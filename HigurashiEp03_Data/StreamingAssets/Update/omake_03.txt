@@ -42,7 +42,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200230", 256, TRUE);
 	OutputLine(NULL, "「この度も、ひぐらしのなく頃に〜祟殺し編〜を最後までお楽しみいただき、誠にありがとうございました。",
-		   NULL, "\"Muito obrigado a todos por jogarem Higurashi: When They Cry - Cap.3 Tatarigoroshi.", Line_WaitForInput);
+		   NULL, "\"Muito obrigado a todos por jogarem Higurashi no Naku Koro ni - Cap.3 Tatarigoroshi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200231", 256, TRUE);
 	OutputLine(NULL, "これまでのシナリオとは少し違う雰囲気でお送りしましたが、いかがだったでしょうか。",
 		   NULL, " O quanto você gostou? Ele tem uma atmosfera diferente dos capítulos anteriores.", Line_WaitForInput);

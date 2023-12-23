@@ -332,7 +332,7 @@ void dialog028()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200276", 256, TRUE);
 	OutputLine(NULL, "「「ひぐらしのなく頃に」も、今回の祟殺し編で３作目。",
-		   NULL, "\"Com Tatarigoroshi, já chegamos ao terceiro jogo da série Higurashi: When They Cry. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Com Tatarigoroshi, já chegamos ao terceiro jogo da série Higurashi no Naku Koro ni. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200277", 256, TRUE);
 	OutputLine(NULL, "ミステリアスな謎を次々と提示してきた前半部はここで折り返しになり、",
