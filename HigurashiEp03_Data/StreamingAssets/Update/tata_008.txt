@@ -7154,7 +7154,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを監督に聞いたって答えられるわけもない。",
-		   NULL, "Eu perguntei ao Treinador, mas eu sabia que ela não tinha como responder.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu perguntei ao Treinador, mas eu sabia que ele não tinha como responder.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........とにかく悟史は逃げた＠
