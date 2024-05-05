@@ -5410,7 +5410,7 @@ void main()
 //　不機嫌そうな独り言にすっかり畏縮してしまっていたが＠...こうして見てると、沙都子もなかなかに料理、達者じゃないか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　不機嫌そうな独り言にすっかり畏縮してしまっていたが。",
-		   NULL, "Eu me encolhi ante seu seu murmúrio irritado.", Line_WaitForInput);
+		   NULL, "Eu me encolhi ante seu murmúrio irritado.", Line_WaitForInput);
 	OutputLine(NULL, "…こうして見てると、沙都子もなかなかに料理、達者じゃないか。",
 		   NULL, " ...Mas, olhando para ela assim, ela parecia bastante boa na cozinha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
