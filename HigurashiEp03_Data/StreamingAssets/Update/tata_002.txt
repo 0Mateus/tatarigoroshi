@@ -6441,7 +6441,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei27520", 256, TRUE);
 	OutputLine(NULL, "「俺は別に気にしないぜ？",
-		   NULL, "\"Eu sou de me importar com isso.", Line_WaitForInput);
+		   NULL, "\"Eu sou de me importar com isso?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei27530", 256, TRUE);
 	OutputLine(NULL, "　……でも、ま、沙都子が嫌なら遠慮してもいいよ。」",
 		   NULL, " ...Mas, bem, se você não quer, então eu não vou.\"", GetGlobalFlag(GLinemodeSp));
