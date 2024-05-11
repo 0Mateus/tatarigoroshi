@@ -2493,7 +2493,7 @@ void main()
 	OutputLine(NULL, "　…即物的なヤツらめ…。",
 		   NULL, "...Pirralhos materialistas...", Line_WaitForInput);
 	OutputLine(NULL, "…むぅ、だが、年頃の男なんてそんなもんだ。",
-		   NULL, " ...Mgh... Mas todos caras nessa idade são assim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Mgh... Mas todos os caras nessa idade são assim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　俺だってセーターと図書券だったら図書券を選ぶもんなぁ...＠
