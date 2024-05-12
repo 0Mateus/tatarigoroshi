@@ -6089,7 +6089,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200638", 256, TRUE);
 	OutputLine(NULL, "「……あ、そうなんだ。",
-		   NULL, "\"...Oh, é mesmo.", Line_WaitForInput);
+		   NULL, "\"...Oh, é mesmo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200639", 256, TRUE);
 	OutputLine(NULL, "…じゃあレナは先に帰ってるね。」",
 		   NULL, " ...Certo, então Rena vai indo para casa.\"", GetGlobalFlag(GLinemodeSp));
@@ -6137,7 +6137,7 @@ void main()
 		   NULL, " Até amanhã!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200642", 256, TRUE);
 	OutputLine(NULL, "。圭一くんも、あまりお邪魔し過ぎないようにね。",
-		   NULL, " Keiichi-kun, não incomode muito, certo.", Line_WaitForInput);
+		   NULL, " Keiichi-kun, não incomode muito, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200643", 256, TRUE);
 	OutputLine(NULL, "もう夕方だから。」",
 		   NULL, " Já é quase noite.\"", GetGlobalFlag(GLinemodeSp));
