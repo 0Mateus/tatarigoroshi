@@ -7084,7 +7084,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さっきの、ちょっとささいな出来事で、",
-		   NULL, "O que acontece hoje foi apenas algo trivial.", Line_WaitForInput);
+		   NULL, "O que aconteceu hoje foi apenas algo trivial.", Line_WaitForInput);
 	OutputLine(NULL, "……明日からの日々が激変してしまうなんてこと、常識じゃ絶対に考えられない。",
 		   NULL, " ...Não faz qualquer sentido pensar que a minha vida será completamente diferente a partir de amanhã.", Line_Normal);
 	ClearMessage();
