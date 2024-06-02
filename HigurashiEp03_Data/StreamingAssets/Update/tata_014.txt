@@ -1192,10 +1192,10 @@ void main()
 		   NULL, "\"...É extremamente lamentável.", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "この時点で警察か消防への連絡があったなら、事態はもっと改善されていた可能性が高いでしょう。",
-		   NULL, " Se eles tivessem contatado com o departamento de polícia ou com os bombeiros, naquele ponto, havia uma boa possibilidade de que a situação pudesse ter tido um rumo melhor.", Line_Continue);
+		   NULL, " Se eles tivessem contatado o departamento de polícia ou os bombeiros, naquele ponto, havia uma boa possibilidade de que a situação pudesse ter tido um rumo melhor.", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "少なくとも、村全滅という惨劇は免れた可能性があります。」",
-		   NULL, " No mínimo, é possível que uma parte da vila poderia ter sido salvo da trágica aniquilação.\"", Line_Normal);
+		   NULL, " No mínimo, é possível que uma parte da vila poderia ter sido salva da trágica aniquilação.\"", Line_Normal);
 	ClearMessage();
 
 //　午前６時＠
