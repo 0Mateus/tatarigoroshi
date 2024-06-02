@@ -172,7 +172,7 @@ void main()
 		   NULL, "\"Ooishi-san, você está aí?!", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "　高杉課長からです。",
-		   NULL, " Chame o Chefe Takasugi.", Line_WaitForInput);
+		   NULL, " Uma ligação do Chefe Takasugi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijib44012", 256, TRUE);
 	OutputLine(NULL, "１号車の無線にお願いします！！」",
 		   NULL, " Ele está na linha, no Carro 1!!\"", Line_Normal);
