@@ -4443,7 +4443,7 @@ void main()
 		   NULL, "\"Deixe ele sozinho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300416", 256, TRUE);
 	OutputLine(NULL, "その内、解決しちゃうと思うしさ。」",
-		   NULL, " Eu penso que as coisas vão se resolver logo dentro em breve.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu penso que as coisas vão se resolver logo em breve.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
