@@ -2136,7 +2136,7 @@ void main()
 //　...頭の中にでっかく錆び付いた鐘がいくつも鳴り響く...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…頭の中にでっかく錆び付いた鐘がいくつも鳴り響く…。",
-		   NULL, "...Sinos enormes e enferrujados começarem a tocar na minha cabeça...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Sinos enormes e enferrujados começaram a tocar na minha cabeça...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......絶対大丈夫だと言い切れるくらいに...深く埋めただろうか...＠
