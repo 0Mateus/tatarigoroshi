@@ -2463,7 +2463,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺がその許可をやめれば、１５００秒でこの世から退去しなくてはならない。",
-		   NULL, "Se eu rescindisse essa permissão, ela estaria partindo deste mundo em 1500 segundos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu rescindisse essa permissão, ele estaria partindo deste mundo em 1500 segundos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......てめぇに、あと１５００秒も地上の空気を吸わせるかよ＠
