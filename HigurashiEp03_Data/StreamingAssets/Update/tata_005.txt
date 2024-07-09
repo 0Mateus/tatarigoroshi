@@ -5253,7 +5253,7 @@ void main()
 		   NULL, "\"...Eu não tenho ideia de quem foi o primeiro que sugeriu isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000225", 256, TRUE);
 	OutputLine(NULL, "……いつの頃からか、大石のことを「オヤシロさまの使い」と呼ぶようになりました。」",
-		   NULL, " ...Mas, num determinado momento, todos começaram a dizer que Ooishi era o 'mensageiro de Oyashiro-sama'.'\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Mas, num determinado momento, todos começaram a dizer que Ooishi era o 'mensageiro de Oyashiro-sama'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
