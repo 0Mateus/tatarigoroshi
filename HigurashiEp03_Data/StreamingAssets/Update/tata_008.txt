@@ -2638,15 +2638,16 @@ void main()
 	OutputLine(NULL, "あの時は、夫婦喧嘩のとばっちりみたいなのがほとんどだったからさ。",
 		   NULL, " Na época, na maior parte do tempo, apenas acontecia deles serem pegos bem no meio das brigas entre seus tios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300034", 256, TRUE);
-	OutputLine(NULL, "……こうして部活で時間をつぶして家にいる時間を極力減らすのもひとつの手だったんだけど…。",
-		   NULL, " ...Uma da maneiras que nós ajudamos foi com o clube, reduzindo o tempo que eles passavam em casa... ", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "……こうして部活で時間をつぶして家にいる時間を極力減らすのもひとつの手だったんだけど…。」",
+		   NULL, " ...Uma da maneiras que nós ajudamos foi com o clube, reduzindo o tempo que eles passavam em casa...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「.........今は家事を強制されてるから、...学校に残ることもできないんだね。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "org/rena2009", 256, TRUE);
-	OutputLine(NULL, "………今は家事を強制されてるから、…学校に残ることもできないんだね。」",
-		   NULL, "......Ele a está obrigando as fazer as tarefas domésticas agora... assim ela nem mesmo pode ficar na escola.\"", Line_Normal);
+	OutputLine(NULL, "「………今は家事を強制されてるから、…学校に残ることもできないんだね。」",
+		   NULL, "\"......Ele a está obrigando as fazer as tarefas domésticas agora... assim ela nem mesmo pode ficar na escola.\"", Line_Normal);
 	ClearMessage();
 
 //　...くそ......＠
@@ -7626,7 +7627,7 @@ void main()
 		   NULL, " pode não querer isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "org/irie2012", 256, TRUE);
 	OutputLine(NULL, "虐待されている本人が避難を望まなければ、弱いでしょうから。」",
-		   NULL, " A menos que a pessoa abusada queira abrigo, isso não vai muito longe.\"", Line_WaitForInput);
+		   NULL, " A menos que a pessoa abusada queira abrigo, isso não vai muito longe.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

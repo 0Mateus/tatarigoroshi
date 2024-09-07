@@ -761,6 +761,8 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawScene("scene/008", 1000 );
+	if (GetGlobalFlag(GHideCG)) {ModSetLayerFilter(3, 256, "none");}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(3, 4, "sprite/sa1a_warai_a1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //「あらぁ＠　魅音さんのお弁当が、今日はなかなか見事でございましてよー！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -772,6 +774,9 @@ void main()
 		   NULL, " Mion-san, hoje seu obentou está com uma aparência maravilhosa!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModSetLayerFilter(1, 256, "none");}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(1, 5, "sprite/ri1_niko_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );}
 
 //「......品数がいっぱいで豪華豪華なのです。＠
 //　沙都子と梨花ちゃんが魅音の弁当を見て歓声をあげている＠......どれどれ＠お￥
@@ -791,6 +796,9 @@ void main()
 		   NULL, " Uau!", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "background/gk3", "right", 0, 0, 300 );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(3, 3, "sprite/me1a_warai_a1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //「昨夜の残りをちょっと詰めてきただけだよ＠うちで昨日、村長たちが酒盛りしててさ＠それで残り物をちょいと取っておいたってわけ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -805,6 +813,8 @@ void main()
 		   NULL, " Assim, eu guardei o que sobrou.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(1, 2, "sprite/re1a_warai_a1_", "2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );}
 
 //「あはははは、それでお酒のおつまみみたいなおかずが多いんだね。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -826,6 +836,8 @@ void main()
 		   NULL, " Parece como um obentou chique, de um restaurante de luxo!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 3, "sprite/me1a_wink_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //「人の印象のほとんどがファーストインプレッションで決まるようにさ＠やっぱりお弁当の味も、蓋を開けた時のキレイさに比例するんじゃないかな、って！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -837,6 +849,10 @@ void main()
 		   NULL, " Por isso, eu penso que talvez o sabor de um obentou seja proporcional ao quão bonita é a aparência dele quando você o abre!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "background/gk1", "left", 0, 0, 300 );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(1, 4, "sprite/sa1a_warai_a1_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );}
+
 //「魅音さんってガサツそうな性格に見えて、結構こういう盛り付けのセンスがいいんですのよね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400119", 256, TRUE);
@@ -844,6 +860,8 @@ void main()
 		   NULL, "\"Mion-san pode ser uma garota pouco refinada, mas certamente é esplêndida em organizar as coisas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(3, 2, "sprite/re1b_warai_b1_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //「お部屋もいつもキレイに片付いてるし＠魅ぃちゃんはみんなが思ってるより、ずっと几帳面で丁寧な人なんだよ！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -892,6 +910,10 @@ void main()
 		   NULL, " Certo, ela é a presidente do nosso clube, no fim das contas!", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "background/gk3", "right", 0, 0, 300 );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 5, "sprite/ri1_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
+
 //「......レナのお弁当も見劣らないのです＠カニかまぼこのお花がとてもキレイなのですよ。＠
 //「レナの弁当って、何て言うか、いつも芸が凝ってるよな＠リンゴのうさぎさんとか、ニンジンの花びらとかさ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -925,6 +947,9 @@ void main()
 		   NULL, " Não só era gostoso, como também aquecia meu coração.", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "background/gk1", "left", 0, 0, 300 );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //「あははは＠　ありがと＠魅ぃちゃんにはちょっと及ばないけど、はぅ、かぁいいかなって！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -939,6 +964,8 @@ void main()
 		   NULL, " Não é tão bom quando o de Mii-chan, mas eu penso que parece mEiGU, hau~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 3, "sprite/me1b_wink_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );}
 
 //「料理は技術じゃなくて愛情でしょ＠その意味でだったら、私なんか足元にも及ばないって！＠
 //　愛情か＠...うん＠確かに、見ているだけで、作ってくれたレナの一生懸命が伝わってくる＠そんなお弁当だ￥
@@ -963,6 +990,9 @@ void main()
 		   NULL, " É desse jeito que o obentou dela é!", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa1b_def_b1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //「お弁当ってのは味だけでなく、見た目も大事ってことですわね＠私たちも見習わないといけませんわね。＠
 //「ほー＠で、その見習わなくちゃならない沙都子たちの弁当はどうだ＠　お...？！￥
@@ -988,6 +1018,9 @@ void main()
 		   NULL, " Hã...?!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 5, "sprite/ri1_niko_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );}
 
 //「......じゃーん。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -996,6 +1029,8 @@ void main()
 		   NULL, "\"...Ta-da.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa1a_warai_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //「をっほっほっほ＠　昨日、ご近所さんにお裾分けのお肉をもらったので、今日は焼肉弁当なんでしてよー？＠
 //　これはまた...すごい迫力だな！＠
@@ -1027,6 +1062,9 @@ void main()
 		   NULL, "Podia parecer uma refeição muito pesada para uma garota, mas desde que todos estávamos compartilhando, isso combinava perfeitamente com as cores sobre a mesa!!", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "background/gk3", "right", 0, 0, 300 );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_def_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );}
 
 //「へー＠...粗雑な体育会系弁当と見せかけて、おかずの品数も結構あるみたいじゃない＠ほうれん草のおひたしとか、ひじきの煮物とか。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1041,6 +1079,8 @@ void main()
 		   NULL, " Como espinafre cozido em molho de soja, e ensopado de hijiki.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 2, "sprite/re1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //「梨花ちゃんは、こういう気取らない家庭料理がとても上手なんだよね＠...うん、梨花ちゃんは将来、立派なお嫁さんになれると思うよ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -1052,6 +1092,9 @@ void main()
 		   NULL, " ...Sim, eu acho que Rika-chan vai ser uma grande esposa quando ela crescer!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 5, "sprite/ri1_warai_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );}
 
 //「......未来の旦那さまを鷲掴みなのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -6073,6 +6116,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawScene("scene/010", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("background/ma_s1", 300 );}
 
 //「......俺、沙都子のことを侮ってたよ＠完全に敗北だ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -6084,6 +6128,8 @@ void main()
 		   NULL, " Você me derrotou sonoramente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 4, "sprite/sa2a_akuwarai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );}
 
 //「をっほっほ＠　少しは見直しまして＠　梨花やレナさんに比べれば私もまだまだですけど、頼りない圭一さんなんかよりはよーっぽどお料理ができましてよ？！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -6105,12 +6151,17 @@ void main()
 		   NULL, "\"Sim, sim. Eu vejo isso agora.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(2, 4, "sprite/sa2a_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
 
 //　素直に負けを認めると、沙都子はようやく表情をやわらかくし、いつもそうするように大きな声で上機嫌に笑った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　素直に負けを認めると、沙都子はようやく表情をやわらかくし、いつもそうするように大きな声で上機嫌に笑った。",
 		   NULL, "Depois de eu honestamente admitir minha derrota, a expressão de Satoko finalmente se suavizou, e ela riu com a sua voz normalmente barulhenta e alegre.", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {FadeBustshot( 2, FALSE, 0, 0, 0, 0, 200, TRUE );}
 
 //「もぐもぐ...＠...お、...ご飯、いい感じで炊き上がってるな。＠
 //　炊飯器で作っているとは言え、水加減が違うのか、いつものお袋のご飯とは少し違った＠
@@ -6174,6 +6225,9 @@ void main()
 		   NULL, "Satoko parecia estar esperando algum, porque quando eu a elogiei tão honestamente, ela ficou sem jeito.", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2a_warai_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );}
+
 //「ほっほっほ...＠　褒められるのは光栄ですけど、そんなに立派ではありませんのよ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400254", 256, TRUE);
@@ -6184,6 +6238,8 @@ void main()
 		   NULL, " Seu louvor me honra, mas não é nada tão grandioso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2a_hau_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //　おかずはお惣菜屋さんで買ったものを温めただけですし＠これとこれは缶詰を開けただけですし＠自分でちゃんと作ったのは、...ご飯と味噌汁だけなんですのよ。＠
 //　ちょっと照れたような顔で、恥ずかしそうに言う沙都子＠
@@ -6211,6 +6267,9 @@ void main()
 	OutputLine(NULL, "　…別に普段の悪口雑言にあるような嫌味は含まれていなかった。",
 		   NULL, "...Não havia nada do seu abuso verbal costumeiro ou sarcasmo.", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2a_def_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //「...ご飯とお味噌汁しか作ってませんけど、出来合いのおかずを並べれば、そこそこに立派にはなりますのよね。＠
 //「うちのお袋だって、出来合いのお惣菜は使うし缶詰だって使うよ＠そんなので恥ずかしがることはないだろ＠......これは立派な夕食だよ。＠
@@ -6242,6 +6301,9 @@ void main()
 		   NULL, " ...Eu nunca encontrei o irmão de Satoko, mas Satoshi provavelmente a elogiaria do mesmo jeito.", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2b_hau_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
+
 //「......ふふん＠...まぁ、私にもそこそこのお料理ができることがわかっていただけたのでしたら、それで充分ですわね＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400260", 256, TRUE);
@@ -6251,6 +6313,8 @@ void main()
 	OutputLine(NULL, "…まぁ、私にもそこそこのお料理ができることがわかっていただけたのでしたら、それで充分ですわね。",
 		   NULL, " ...Bem, eu acho que é o suficiente, agora que você percebeu que eu posso me virar muito bem na cozinha.", Line_WaitForInput);
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2b_warai_b1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //御代わりいります＠　お味噌汁はまだありますですわよ。＠
 //　あれ...＠　こいつ、今ちょっと照れなかったか＠
