@@ -2,3 +2,5 @@
 /HigurashiEp03_Data/StreamingAssets/movies
 Tatarigoroshi_PT-BR.7z
 release.bat
+/HigurashiEp03_Data/*.assets
+/HigurashiEp03_Data/*.languagespecificassets
