@@ -7866,7 +7866,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "org/irie2019", 256, TRUE);
 	OutputLine(NULL, "「…多分、沙都子ちゃんに通報の話をすると、とても嫌がるか、その必要はないと強がりを言うと思います。",
-		   NULL, "\"...Satoko-chan provavelmente odiaria a ideia de você repostar o abuso, ou fingiria coragem e diria que não é preciso. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Satoko-chan provavelmente odiaria a ideia de você reportar o abuso, ou fingiria coragem e diria que não é preciso. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "org/irie2020", 256, TRUE);
 	OutputLine(NULL, "沙都子ちゃんに内緒で通報したとしても…、福祉司に対して、自分は虐待を受けていないと言い張るでしょうね。」",
