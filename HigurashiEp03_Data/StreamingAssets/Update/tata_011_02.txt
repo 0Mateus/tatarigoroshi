@@ -3407,7 +3407,7 @@ void main()
 //　この崖のようにせり出したところから、アクセルをふかせて、思いっきり走らせれば...沼の真ん中にドボンと飛び込むだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この崖のようにせり出したところから、アクセルをふかせて、思いっきり走らせれば…沼の真ん中にドボンと飛び込むだろう。",
-		   NULL, "eu pisasse no acelerador à beira do precipício-onde eu estava agora... a coisa iria voar em linha reta até o meio do pântano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu pisasse no acelerador à beira do precipício onde eu estava agora... a coisa iria voar em linha reta até o meio do pântano.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......俺まで落ちないように気をつけなければ＠
