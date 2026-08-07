@@ -855,7 +855,7 @@ void main()
 //　そして階段を上がりきるのに（...推定何秒くらいだろう）どれくらいかのラグタイムがあり、その隙に、押入れに隠れるくらいはできるはず...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして階段を上がりきるのに（…推定何秒くらいだろう）どれくらいかのラグタイムがあり、その隙に、押入れに隠れるくらいはできるはず…。",
-		   NULL, "E haveria um pouco de tempo antes que eles entrassem, o suficiente (...eu estimativa em alguns segundos) para ela conseguir se esconder no armário...", Line_Normal);
+		   NULL, "E haveria um pouco de tempo antes que eles entrassem, o suficiente (...eu estimaria em alguns segundos) para ela conseguir se esconder no armário...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/ma_s1", "right", 0, 0, 300 );
