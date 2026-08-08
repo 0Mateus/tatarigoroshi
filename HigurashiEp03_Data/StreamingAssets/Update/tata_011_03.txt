@@ -65,7 +65,7 @@ void main()
 //　......楽しかったお祭りの興奮が醒めなくて...、きっと上機嫌に仲間と過した楽しい時間を両親に話していただろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……楽しかったお祭りの興奮が醒めなくて…、きっと上機嫌に仲間と過した楽しい時間を両親に話していただろう。",
-		   NULL, "...Eu ainda estaria animado do festival... e eu estaria falando para meus pais sobre tinha sido divertido passar o tempo com minhas amigas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu ainda estaria animado do festival... e eu estaria falando para meus pais sobre como tinha sido divertido passar o tempo com minhas amigas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　そして...せっかくの温かい食事も、露店で食べ過ぎてろくろく手をつけないまま自室に戻り.........＠眠さにあっさりと身を委ね、布団にもぐりこむに違いないのだ￥
