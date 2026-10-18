@@ -160,7 +160,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Delegacia de Polícia de Okinomiya</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijia_3003", 256, TRUE);
 	OutputLine(NULL, "「興宮ＰＳより大石車どうぞー。",
-		   NULL, "\"Okinomiya SP (Polícia de Segurança) para Ooishi.", Line_Continue);
+		   NULL, "\"Okinomiya PS (Polícia de Segurança) para Ooishi.", Line_Continue);
 	Wait(1500);
 	OutputLine(NULL, "先ほどのナンバーが判明しましたー。",
 		   NULL, " Nós encontramos a placa de antes.", Line_WaitForInput);
